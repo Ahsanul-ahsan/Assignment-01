@@ -7,22 +7,31 @@
   font-family: Inter, sans-serif;
   font-optical-sizing: auto;
 
+  /* style of nav */
 }
 #navbar-info{
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
+    background: rgba(255, 255, 255, 1);
   
 }
 nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 120px 16px 120px;
-  margin: 0 auto;
+ height: 92px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 16px 100px 16px 100px;
+ width: auto;
+
+
 }
  #navbar-info .image img{
     width: 139px;
     height: 68px;
     cursor: default;
+    margin-left: 110px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-width: auto;
 }
  .list-info{
     display: flex;
@@ -38,7 +47,7 @@ ul{
     width: 367px;
     height: 24px;
     list-style: none;
-    margin-left: 345px;
+    margin-left: 245px;
     
 }
  .btn button{
@@ -50,6 +59,7 @@ color: white;
 margin-right: 120px;
 cursor: pointer;
 font-weight: 600;
+margin-bottom: 16px;
 }
 .list-info a{
     text-decoration: none;
@@ -66,5 +76,116 @@ font-weight: 600;
    color: #000000;
    cursor: default;
 }
-/* style of nav */
-   
+/* style for main */
+.hero-section {
+  height: 604px;
+  width: 100%;
+  background-image: url("/assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+.container {
+  max-width: 1050px;
+  margin: 0px auto;
+}
+.badge {
+  display: inline-block;
+  border: 1px solid #ffffff55;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #30b868;
+  background-color: #ffffff;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-desc {
+  font-size: 18px;
+  color: #cccccc;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.green-text {
+  color: #30b868;
+}
+
+.btn-2 {
+  padding: 12px 16px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #469165;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.btn-2:hover {
+  transform: scale(1.15);
+}
+/* style of card */
+.skills-container{
+    width: 71%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.section-heading h2{
+ color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+ font-style: Bold;
+ font-size: 48px;
+ font-weight: 500;
+ line-height: 58px;
+ text-align: center;
+ text-transform: capitalize;
+}
+.section-heading p{
+ color: var(--#627382, rgba(98, 115, 130, 1));
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 20px;
+ text-align: center;
+ margin-bottom: 20px;
+}
+.skill-box{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 16;
+ padding: 24px;
+ border-radius: 8px;
+ box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+ background: rgba(255, 255, 255, 1);
+}
+/* image */
+.image{
+ width: 600px;
+ height: 600px;
+ border-radius: 12px;
+background: url(/assets/knowledge.png);
+}
