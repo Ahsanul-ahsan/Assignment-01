@@ -80,7 +80,7 @@ margin-bottom: 16px;
 .hero-section {
   height: 604px;
   width: 100%;
-  background-image: url("../assets/hero-bg.png");
+  background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
