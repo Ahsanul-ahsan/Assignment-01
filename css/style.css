@@ -12,6 +12,7 @@
 #navbar-info{
     /* background-color: cornsilk; */
     background: rgba(255, 255, 255, 1);
+    
   
 }
 nav{
@@ -20,9 +21,8 @@ nav{
  justify-content: space-between;
  align-items: center;
  padding: 16px 100px 16px 100px;
- width: auto;
-
-
+ 
+ 
 }
  #navbar-info .image img{
     width: 139px;
@@ -31,7 +31,8 @@ nav{
     margin-left: 110px;
     margin-top: 16px;
     margin-bottom: 16px;
-    max-width: auto;
+    max-width: 1050px;
+    margin: 0px auto;
 }
  .list-info{
     display: flex;
