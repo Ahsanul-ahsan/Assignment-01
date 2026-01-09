@@ -44,7 +44,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 10px;
     width: 367px;
     height: 24px;
     list-style: none;
@@ -62,6 +62,7 @@ cursor: pointer;
 font-weight: 600;
 margin-bottom: 16px;
 padding-right: 16px;
+
 }
 .list-info a{
     text-decoration: none;
