@@ -24,6 +24,7 @@ nav{
  
  
 }
+
  #navbar-info .image img{
     width: 139px;
     height: 68px;
@@ -31,8 +32,7 @@ nav{
     margin-left: 110px;
     margin-top: 16px;
     margin-bottom: 16px;
-    max-width: 1050px;
-    margin: 0px auto;
+    
 }
  .list-info{
     display: flex;
@@ -61,6 +61,7 @@ margin-right: 120px;
 cursor: pointer;
 font-weight: 600;
 margin-bottom: 16px;
+padding-right: 16px;
 }
 .list-info a{
     text-decoration: none;
